@@ -50,6 +50,7 @@ section header ul li button:hover{
   color:crimson;
   cursor: pointer;
   box-shadow: 7px 7px 15px;
+  transition: 0.5s;
 }
  .main{
   width: 380px;
@@ -117,7 +118,7 @@ color:white;
   border: 2px solid ;
   background-color:rgb(250, 2, 2);
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
   font-size: 16px;
   outline: none;
   
@@ -132,8 +133,10 @@ color:white;
   list-style: none;
   padding-left: 25px;
   text-transform: uppercase;
-  color: darkgoldenrod;
+  color: crimson;
   cursor: pointer;
+  font-weight: bold;
+  text-shadow: 10px 11px 12px  darkgray;
 }
 footer{
   width: 100%;
@@ -149,14 +152,16 @@ footer p{
   text-transform: uppercase;
   font-weight: 600;
   color:darkblue;
+  letter-spacing: 2px;
 }
 span{
   color:red;
+  font-style: italic
 
 }
 span:hover{
-  cursor:grab;
+  cursor:pointer;
   background-color: red;
   color: white;
-  font-size: ;
+  transition: 0.7s; 
 }
