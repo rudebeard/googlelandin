@@ -12,3 +12,16 @@ section{
   align-items: center;
   min-height: 100vh;
 }
+section header{
+  position: absolute;
+  top:0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding:20px;
+}
+section header ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
