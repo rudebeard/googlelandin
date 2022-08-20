@@ -17,7 +17,7 @@ section header{
   top:0;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding:20px;
 }
 section header ul{
@@ -51,6 +51,13 @@ section header ul li button:hover{
   cursor: pointer;
   box-shadow: 7px 7px 15px;
   transition: 0.5s;
+}
+
+.header_left  {
+  float:left;
+}
+.header_right{
+  float: right;
 }
  .main{
   width: 380px;
@@ -164,4 +171,25 @@ span:hover{
   background-color: red;
   color: white;
   transition: 0.7s; 
+}
+footer{
+  background-color: rgb(234, 234, 234);
+}
+.footer{
+background-color: #ccc;
+border-top: 2px solid;
+display: flex;
+flex-direction: column;
+
+;
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-style: italic;
 }
