@@ -25,3 +25,29 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+section header ul li{
+list-style-type: none;
+margin-left: 25px;
+}
+section header ul li a{
+  color:darkblue;
+  text-decoration: none;
+}
+section header ul li button{
+  width: 150px;
+  height:45px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: crimson;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 7px;
+}
+section header ul li button:hover{
+  background-color: white;
+  color:crimson;
+  cursor: pointer;
+  box-shadow: 7px 7px 15px;
+}
